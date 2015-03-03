@@ -13,6 +13,7 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'client/accounts-token.coffee',
+    'client/iron-router-hook.coffee',
   ], 'client');
 
   api.addFiles([
